@@ -1,0 +1,161 @@
+#title{
+  background-color: #082032;
+  color: white;
+  text-align: left;
+}
+.container-fluid {
+  padding:3% 15% 7%;
+}
+
+/* title image */
+.title-image {
+ width:70%;
+ position: absolute;
+ right: 30%;
+
+}
+
+/* feature */
+#features {
+  padding: 7% 15%;
+
+  position: relative;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+.icon {
+  color: #082032;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #FF4C29;
+}
+
+
+h1{
+  font-family: 'Racing Sans One', cursive;
+  color:#FA1E0E;
+  font-size: 5rem;
+  font-weight: 700;
+  line-height: 2.5;
+}
+
+h2{
+  color: black;
+}
+h4{
+  color: white;
+}
+h3{
+  font-family: 'STIX Two Text', serif;
+  color: white;
+}
+em{
+  color:white;
+}
+
+
+.photo{
+  position: relative;
+}
+
+.row{
+  padding: 100px 100px;
+}
+/*navbar*/
+.navbar {
+  padding: 100px 100px;
+}
+.nav-item{
+  padding: 0 18px;
+}
+
+
+
+/* download-buttons */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+.second{
+  background-color: #2C394B;
+height:auto;
+}
+
+
+/* testimonial */
+.testimonial-image{
+  width: 50%;
+  margin: 20px;
+}
+.testimonial-text{
+  color: white;
+}
+#testimonials {
+  text-align: center;
+  background-color: #2C394B;
+
+}
+.carousel-item {
+  padding: 7% 15%;
+}
+
+
+
+#pricing{
+  background-color: #334756;
+  padding: 100px;
+  text-align: center;
+}
+.pricing-column {
+  padding: 3% 2%;
+}
+
+
+.fourth{
+  background-color: #FF4C29;
+  height:500px;
+}
+
+/* call to action */
+#cta{
+  background-color: #FF4C29;
+  text-align: center;
+  padding: 7% 15%;
+  height:400px;
+}
+
+#footer{
+  background-color: #FF4C29;
+padding: 30px 0 30px 0;
+text-align: center;
+height:140px;
+
+}
+
+/* media */
+
+@media(max-width:1028px)
+{
+#title{
+  text-align: center;
+}
+
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+.last{
+  color: white;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+.social-icon{
+  margin: 20px 10px;
+}
